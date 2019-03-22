@@ -2,6 +2,8 @@
 body {
   margin: 0;
   background-color: rgb(18, 127, 121);
+  width: 2048px;
+  height: 1148px;
 }
 
 @font-face {
@@ -11,7 +13,8 @@ body {
 .beach {
   position: relative;
   z-index: -9999;
-  background: url(../images/test_beach_scene.jpg) no-repeat;
+  background: url(../images/rest.jpg) no-repeat;
+  bac
   width: 2048px;
   height: 1148px;
 }
