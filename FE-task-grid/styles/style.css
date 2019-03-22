@@ -145,5 +145,6 @@ body {
     transform: translateX(-1940px);
     -webkit-filter: drop-shadow(0 0);
     filter: drop-shadow(0 0);
+    animation-timing-function: linear;
   }
 }
