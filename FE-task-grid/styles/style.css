@@ -8,7 +8,22 @@ body {
   font-family: Helvetica;
   src: url('../fonts/Helvetica.ttf');
 }
+.beach {
+  background: url(../images/beach_scene.jpg) no-repeat;
+  background-size: cover;
+  width: 2048px;
+  height: 1148px;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: -99999;
+}
 .container {
+  z-index: 30;
+  background-color: rgb(18, 127, 121);
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 1940px;
   height: 1148px;
   display: grid;
@@ -69,7 +84,7 @@ body {
 .margin-top {
   grid-area: margin-top;
   grid-column-start: 1;
-  grid-column-end: 5;
+  grid-column-end: 6;
   grid-row-start: 1;
   grid-row-end: 1;
 }
