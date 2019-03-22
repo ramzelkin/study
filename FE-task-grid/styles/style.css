@@ -135,5 +135,15 @@ body {
   display: none;
 }
 #button:checked~.container.shadow {
-  display: none;
+  animation: container 1s;
+}
+@keyframes container {
+  0% {
+
+  }
+  100% {
+    transform: translateX(-1940px);
+    -webkit-filter: drop-shadow(0 0);
+    filter: drop-shadow(0 0);
+  }
 }
