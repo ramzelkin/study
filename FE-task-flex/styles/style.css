@@ -8,3 +8,19 @@ body {
   font-family: Helvetica;
   src: url('../fonts/Helvetica.ttf');
 }
+.container {
+  width: 1940px;
+  height: 1147px;
+  display: flex;
+  flex-direction: row;
+}
+.margin {
+  width: 154px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.text {
+  
+}
