@@ -18,6 +18,10 @@ body {
   width: 2048px;
   height: 1148px;
 }
+.shadow {
+  -webkit-filter: drop-shadow(14px 0 40px);
+  filter: drop-shadow(14px 0 40px);
+}
 .container {
   position: absolute;
   top: 0;
@@ -54,8 +58,15 @@ body {
   grid-row-end: 2;
   background: url(../images/assets.png) no-repeat;
   background-position-x: -1200px;
-  height: 170px;
-  width: 170px;
+  height: 175px;
+  width: 175px;
+}
+.label {
+  position: absolute;
+  top: 400px;
+  left: 1589px;
+  height: 160px;
+  width: 160px;
 }
 .horse {
   grid-area: horse;
@@ -119,4 +130,10 @@ body {
 }
 .line {
   border-left: 20px solid #ccc;
+}
+#button {
+  display: none;
+}
+#button:checked~.container.shadow {
+  display: none;
 }
