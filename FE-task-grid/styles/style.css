@@ -79,7 +79,7 @@ body {
   height: 125px;
   width: 255px;
 }
-.reference, .address {
+.reference, .address, .line {
   font-family: Helvetica;
   font-size: 20px;
 }
@@ -129,7 +129,8 @@ body {
   color: #fff;
 }
 .line {
-  border-left: 20px solid #ccc;
+  height: 20px;
+  color: #ccc;
 }
 #button {
   display: none;
