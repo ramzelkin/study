@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(18, 127, 121);
+  margin: 0;
+  width: 2048px;
+  height: 1148px;
+}
+.container {
+  margin-top: 400px;
+  margin-left: 154px;
+  margin-right: 154px;
+  height: 100%;
+  /* width: 1940px; */
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(18, 127, 121);
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  margin-left: 235px;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.text {
+  background: url('../images/assets.png') no-repeat;
+  width: 1200px;
+  height: 180px;
+}
+.button {
+  background: url('../images/assets.png') no-repeat;
+  background-position-x: -1200px;
+  height: 175px;
+  width: 175px;
+}
+.horse {
+  background: url('../images/assets.png') no-repeat;
+  background-position-y: -180px;
+  height: 125px;
+  width: 255px;
+}
+.wrapper {
+  width: 255px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.text-yellow,
+.text-white
+ {
+  font-family: Helvetica;
+  font-size: 20px;
+}
+.text-yellow {
+  color: #fbae17;
+}
+.text-white {
+  color: #fff;
+}
+@font-face {
+  font-family: Helvetica;
+  src: url('../fonts/Helvetica.ttf');
+}
