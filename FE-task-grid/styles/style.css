@@ -30,10 +30,11 @@ body {
 }
 
 .beach {
-  background: url('../images/rest.jpg') no-repeat;
+  background: url('../images/beach.jpg') no-repeat;
   height: 100%;
   position: relative;
   z-index: -9999;
+  background-size: 100%;
 }
 
 .button {
